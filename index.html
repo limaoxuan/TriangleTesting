@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello Triangle Test</title>
+    <!--<link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="container">
+    <div class="page-header">
+        <h1>Hello Triangle Test</h1>
+    </div>
+    <div class="input-group">
+        <span class="input-group-addon">first side</span>
+        <input type="number" class="form-control first-side" placeholder="input number">
+    </div>
+    <div class="input-group">
+        <span class="input-group-addon">second side</span>
+        <input type="number" class="form-control second-side" placeholder="input number">
+    </div>
+    <div class="input-group">
+        <span class="input-group-addon">third side</span>
+        <input type="number" class="form-control third-side" placeholder="input number">
+    </div>
+    <div class="btn-group">
+    <button type="button" class="btn btn-default btn-primary">RUN</button>
+        <button type="button" class="btn btn-default btn-danger">RESET</button>
+    </div>
+</div>
+<canvas id="canvas" width="500" height="500"></canvas>
+</body>
+<!--<script src="node_modules/jquery/dist/jquery.min.js"></script>-->
+<script src="js/jquery.min.js"></script>
+<script src="js/calculateTriangle.js"></script>
+</html>
